@@ -1,4 +1,5 @@
 【环境】python 2.7 scrapy 1.4 PhantomJS Pyodbc sqlserver 2008
+数据库用的pyodbc + sqlserver，pyodbc的编码问题花了很长时间才解决。
 
 采用PhantomJS 来获取js动态内容，虽然速度会相当慢，但是也是windows系统上不得已的选择。
 
