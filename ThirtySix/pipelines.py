@@ -9,7 +9,7 @@ from DBHelper import DBHelper
 class ThirtySixPipeline(object):
 
     def __init__(self):
-        self.helper = DBHelper('120.25.215.53', '1433', 'TestForBinBin', 'sa', 'Touwho2015')
+        self.helper = DBHelper('120.*.215.*', '1433', 'TestForBinBin', 'sa', '******')
 
     def process_item(self, item, spider):
         print "process_item title" +  item["article_title"]
